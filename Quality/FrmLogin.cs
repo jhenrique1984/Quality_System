@@ -17,6 +17,7 @@ namespace Quality
     public partial class FrmLogin : DevComponents.DotNetBar.Office2007Form
     {
         Conexao cx = new Conexao();
+        Menu objForm = new Menu();
 
         public FrmLogin()
         {
@@ -80,6 +81,9 @@ namespace Quality
                     if (v > 0)
                     {
                         pnlStatus.Text = "Usuario logado com sucesso";
+                        objForm.Show();
+                        this.Hide();
+
                     }
                     else
                     {
