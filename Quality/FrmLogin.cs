@@ -50,7 +50,7 @@ namespace Quality
 
         private void btnCancela_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void btnOK_Click(object sender, EventArgs e)

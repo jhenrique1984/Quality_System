@@ -63,6 +63,36 @@ namespace Quality.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap appbar_cabinet_variant {
+            get {
+                object obj = ResourceManager.GetObject("appbar.cabinet.variant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap appbar_door_leave {
+            get {
+                object obj = ResourceManager.GetObject("appbar.door.leave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap father_blue_background {
+            get {
+                object obj = ResourceManager.GetObject("father_blue_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap proq {
             get {
                 object obj = ResourceManager.GetObject("proq", resourceCulture);
